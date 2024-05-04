@@ -10,7 +10,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-/* colour palette
+/* colour palettes
 #e1e1e1
 #7a7a7a
 #232c33
@@ -18,32 +18,72 @@ body {
 #ec9f05
 */
 
+.navbar {
+    background-color: #7a7a7a;
+    position: fixed;
+    width: 97vw;
+    top: 0;
+    left: 0;
+    padding: 15px 40px;
+    z-index: 9999;
+}
+
+.navbar a {
+    color: #232c33;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #a20021;
+}
+
+.nav-options {
+    float: right;
+    font-size: 1rem;
+    padding-right: 40px;
+}
+
 .landing {
-    width: 100vw;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 98vw;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 5vw;
+    margin-top: 4vw;
+    box-sizing: border-box;
+}
+
+.landing-text {
+    flex: 85%;
+    padding-left: 5vw;
+    padding-top: 2vw;
 }
 
 .landing h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .landing p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.8
+}
+
+.about {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-bottom: 1vw;
 }
 
 .about p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .about-images {
     display: flex;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 
-.column {
+.about-column {
     flex: 33.33%;
     padding: 10px;
 }
