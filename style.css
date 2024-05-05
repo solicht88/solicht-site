@@ -50,14 +50,18 @@ body {
     padding: 5vw;
     margin-top: 4vw;
     box-sizing: border-box;
+    align-items: center;
 }
 
 .landing-text {
-    flex: 85%;
+    flex: 60%;
     padding-left: 5vw;
-    padding-top: 2vw;
 }
 
+.landing-image {
+    flex: 40%
+}
+ 
 .landing h2 {
     font-size: 2.5rem;
 }
@@ -86,4 +90,27 @@ body {
 .about-column {
     flex: 33.33%;
     padding: 10px;
+}
+
+.page-header {
+    display: flex;
+    padding: 5vw;
+    padding-bottom: 2vw;
+    margin-top: 4vw;
+}
+
+.page-header h2 {
+    font-size: 2.5rem;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    gap: 30px 40px;
+}
+
+.photo-column {
+    flex: 30%;
 }
