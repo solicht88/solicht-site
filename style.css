@@ -94,6 +94,7 @@ body {
 
 .page-header {
     display: flex;
+    flex-direction: column;
     padding: 5vw;
     padding-bottom: 2vw;
     margin-top: 4vw;
@@ -101,6 +102,29 @@ body {
 
 .page-header h2 {
     font-size: 2.5rem;
+}
+
+.page-header h3 {
+    font-size: 1.5rem;
+}
+
+.page-header h4 {
+    font-size: 1.5rem;
+    padding-left: 2vw;
+}
+
+.page-header p {
+    font-size: 1.5rem;
+    padding-left: 2vw;
+}
+
+.page-header a {
+    color: #232c33;
+    text-decoration: none;
+}
+
+.page-header a:hover {
+    color: #a20021;
 }
 
 .photos {
