@@ -54,12 +54,12 @@ body {
 }
 
 .landing-text {
-    flex: 60vw;
-    padding-left: 5vw;
+    width: 60vw;
+    margin-left: 5vw;
 }
 
-.landing-image {
-    flex: 40vw;
+.landing img {
+    width: 40vw;
 }
  
 .landing h2 {
@@ -83,48 +83,62 @@ body {
 
 .about-images {
     display: flex;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    flex: 1;
+    justify-content: center;
+    gap: 2vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 4vw;
 }
 
-.about-column {
-    flex: 33.33%;
-    padding: 10px;
+.about-images img {
+    width: 30vw;
 }
 
-.page-header {
+.project-header {
     display: flex;
     flex-direction: column;
+    padding: 5vw;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+}
+
+.project-header h2 {
+    font-size: 2.5rem;
+}
+
+.project-header h3 {
+    font-size: 1.5rem;
+}
+
+.project-header h4 {
+    font-size: 1.5rem;
+    padding-left: 2vw;
+}
+
+.project-header p {
+    font-size: 1.5rem;
+    padding-left: 2vw;
+}
+
+.project-header a {
+    color: #232c33;
+    text-decoration: none;
+}
+
+.project-header a:hover {
+    color: #a20021;
+}
+
+.photo-header {
+    display: flex;
     padding: 5vw;
     padding-bottom: 2vw;
     margin-top: 4vw;
 }
 
-.page-header h2 {
+.photo-header h2 {
     font-size: 2.5rem;
-}
-
-.page-header h3 {
-    font-size: 1.5rem;
-}
-
-.page-header h4 {
-    font-size: 1.5rem;
-    padding-left: 2vw;
-}
-
-.page-header p {
-    font-size: 1.5rem;
-    padding-left: 2vw;
-}
-
-.page-header a {
-    color: #232c33;
-    text-decoration: none;
-}
-
-.page-header a:hover {
-    color: #a20021;
 }
 
 .photos {
@@ -132,9 +146,10 @@ body {
     flex-wrap: wrap;
     padding-left: 7vw;
     padding-right: 7vw;
-    gap: 30px 40px;
+    justify-content: center;
+    gap: 2vw 2vw;
 }
 
-.photo-column {
-    flex: 33vw;
+.photos img {
+    width: 26vw;
 }
