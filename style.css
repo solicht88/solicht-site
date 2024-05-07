@@ -95,12 +95,15 @@ body {
     width: 30vw;
 }
 
+#page-header {
+    padding-top: 9vw;
+}
+
 .project-header {
     display: flex;
     flex-direction: column;
     padding: 5vw;
-    margin-bottom: 4vw;
-    margin-top: 4vw;
+    padding-bottom: 0vw;
 }
 
 .project-header h2 {
